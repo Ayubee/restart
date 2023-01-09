@@ -55,11 +55,13 @@
     color:white;
     font-family: 'Open Sans';
     font-weight: 600;
+    font-size: 42px;
+line-height: 57px;
+text-decoration: none;  
 }
 .header-subject {
     height: 100%;
     display: flex;
-    /* align-items: center; */
     margin-right: 65px;
 }
 
@@ -91,4 +93,70 @@
     font-family: 'Open Sans';
     color: #fff;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
 }
+
+
+/* Page */
+
+.page {
+    width: 100%;
+}
+
+.page-con {
+    height: 885px;
+    background-image: url(../img/man.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container {
+    height: 50%;
+}
+
+.page-caption {
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 98px;
+}
+
+.page-button {
+    display: flex;  
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.btn  {  
+    width: 497px;
+    height: 104px;
+    background-color: #FF2D2D;
+    border: none;
+    border-radius: 5px;
+}
+
+.href {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    text-decoration: none;
+}
+
