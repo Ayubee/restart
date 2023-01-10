@@ -160,3 +160,35 @@ text-decoration: none;
     text-decoration: none;
 }
 
+.promo {
+    width: 100%;
+}
+.promo-box {
+    display: flex;
+    justify-content: center;
+}
+.promo-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+}
+.promo-conent {
+    width: 100%;
+    justify-content: flex-start;
+}
+.promo-href{
+
+    position: absolute;
+
+}
+
+.promo-pic {
+    margin-left: 15px;
+    position: relative;
+}
+
+
+
